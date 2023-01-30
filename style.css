@@ -68,8 +68,8 @@ section {
 }
 
 .container {
-width: 1024px;
-    margin: auto;
+max-width: 1204px;
+    margin: 0 auto;
 }
 .boxes {
     display: flex;
@@ -90,9 +90,11 @@ width: 1024px;
     flex-direction: column;
     flex-basis: 40%;
     justify-content: center;
+    /* border: 1px solid white; */
 }
 .box2 > img {
     z-index: 1;
+    max-width: fit-content;
 }
 .video1 {
     position: absolute;
@@ -112,13 +114,13 @@ width: 1024px;
 }
 
 .box1 > h2 {
-    padding-left: 60px;
+    /* padding-left: 60px; */
     font-size: 50px;
     font-weight: 400;
 }
 .box1> h3 {
-    padding-left: 60px;
-    font-size: 20px;
+    /* padding-left: 60px; */
+    font-size: 16px;
     font-weight: 400;
 }
 
